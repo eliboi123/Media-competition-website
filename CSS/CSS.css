@@ -176,11 +176,11 @@ h1{
 	height:100px;
 	padding:0% 2%;
 }
-.Footer{
-    color:#007aff;
-    font-size:15px;
-    padding:10% 5% 0% 5%;
-    margin:2% 2%;
+.Room{
+  font-size: 30px;
+}
+.Home{
+  font-size: 40px;
 }
 .Form{
     padding:15%;
@@ -213,7 +213,7 @@ form {
     color:#d4af37;
 }
 .SubText {
-    Font-size: ;
+    Font-size: 22px;
 }
 
 input[type=text], input[type=submit] {
@@ -250,8 +250,28 @@ input[type=submit]:hover {
  padding:15% 5%;
  margin:5%;
   }
+  .WelcomeTXT{
+    font-size:30px;
+  }
 }
-
+@media screen and (min-width: 601px) and (max-width: 1200px){
+  .WelcomeTXT{
+    font-size:50px;
+  }
+  .Box{
+    height:100%;
+    Width:90%;
+    Margin:0;
+    Padding:0% 5%;
+  }
+  .Home{
+    font-size: 30px;
+  }
+  html, body{
+    background-color: white;
+    background-image:none;
+  }
+}
 @media screen and (max-width: 600px) {
   .nav.responsive {position: relative;}
   .nav.responsive a.icon {
@@ -271,13 +291,20 @@ input[type=submit]:hover {
   .HeaderBox{
       display:none;
   }
+  html, body{
+    background-color: white;
+    background-image:none;
+  }
+  .Home{
+    font-size: 25px;
+  }
 }
 @media screen and (max-width: 500px) {
   .column {
     width: 100%;
   }
 }
-@media screen and (min-width: 2000px, max-width:2999px){ 
+@media screen and (min-width: 2000px) and (max-width:2999px){ 
   #Text1, #Text2, #Text3 {
     font-size:35px;
   }
